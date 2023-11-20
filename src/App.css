@@ -4,7 +4,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
+  max-height: 100vh;
   text-align: center;
   padding: 15px;
   color: white;
@@ -13,17 +14,33 @@
 }
 
 .bg1 {
-  background-image: url(/images/universe1.webp);
+  background-image: url(/images/planet1.png), url(/images/universe1.webp);
+  background-position: bottom, center;
+  background-repeat: no-repeat;
+  background-size: 563.1px, cover;
+  z-index: 1;
 }
 
 .bg2 {
-  background-image: url(/images/universe2.webp);
+  background-image: url(/images/planet2.png), url(/images/universe2.webp);
+  background-position: bottom, center;
+  background-repeat: no-repeat;
+  background-size: 563.1px, cover;
+  z-index: 1;
 }
 
 .bg3 {
-  background-image: url(/images/universe4.webp);
+  background-image: url(/images/planet3.png), url(/images/universe4.webp);
+  background-position: bottom, center;
+  background-repeat: no-repeat;  
+  background-size: 563.1px, cover;
+  z-index: 1;
 }
 
 .bg4 {
-  background-image: url(/images/universe4.webp);
+  background-image: url(/images/planet4.png), url(/images/universe4.webp);
+  background-position: bottom, center;
+  background-repeat: no-repeat;
+  background-size: 563.1px, cover;
+  z-index: 1;
 }
