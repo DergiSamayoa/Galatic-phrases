@@ -1,9 +1,9 @@
 @import url('https://fonts.cdnfonts.com/css/digital-7-mono');               
 
 .App {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   min-height: 100vh;
   max-height: 100vh;
   text-align: center;
