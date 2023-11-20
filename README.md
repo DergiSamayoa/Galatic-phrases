@@ -1,6 +1,12 @@
-# React + Vite
+# Galactic phrase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This app generates random phrases related to the space universe. 
+
+You can see the demo by clicking [here](https://galatic-phrases.vercel.app/)
+
+Components and states are used to render images and phrases. Pressing the button changes the state with a random value and according to the value the elements are rendered.
+
+##Vite + React
 
 Currently, two official plugins are available:
 
